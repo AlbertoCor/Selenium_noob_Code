@@ -29,7 +29,7 @@ class NavTest(unittest.TestCase):
 
 
     def tearDown(self):
-        self.driver.implicitly_wait(30)
+        self.driver.implicitly_wait(3)
         self.driver.close()
         
 
